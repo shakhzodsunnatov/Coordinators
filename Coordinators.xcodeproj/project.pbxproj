@@ -20,6 +20,7 @@
 		63BC5DA2287C91A7006B8205 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC5DA1287C91A7006B8205 /* CreateAccountViewController.swift */; };
 		63BC5DA4287DA6CB006B8205 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC5DA3287DA6CB006B8205 /* BuyCoordinator.swift */; };
 		63BC5DA6287DAC57006B8205 /* MainTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC5DA5287DAC57006B8205 /* MainTapBarController.swift */; };
+		63DD263D28912BA0003F19C0 /* CreateAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DD263C28912BA0003F19C0 /* CreateAccountCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		63BC5DA1287C91A7006B8205 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		63BC5DA3287DA6CB006B8205 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 		63BC5DA5287DAC57006B8205 /* MainTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTapBarController.swift; sourceTree = "<group>"; };
+		63DD263C28912BA0003F19C0 /* CreateAccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				63BC5DA5287DAC57006B8205 /* MainTapBarController.swift */,
 				63BC5D89287C8C2F006B8205 /* ViewController.swift */,
 				63BC5DA3287DA6CB006B8205 /* BuyCoordinator.swift */,
+				63DD263C28912BA0003F19C0 /* CreateAccountCoordinator.swift */,
 				63BC5D8B287C8C2F006B8205 /* Main.storyboard */,
 				63BC5D8E287C8C34006B8205 /* Assets.xcassets */,
 				63BC5D90287C8C34006B8205 /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 				63BC5DA0287C918E006B8205 /* BuyViewController.swift in Sources */,
 				63BC5DA6287DAC57006B8205 /* MainTapBarController.swift in Sources */,
 				63BC5D9C287C8D41006B8205 /* Storyboarder.swift in Sources */,
+				63DD263D28912BA0003F19C0 /* CreateAccountCoordinator.swift in Sources */,
 				63BC5DA2287C91A7006B8205 /* CreateAccountViewController.swift in Sources */,
 				63BC5D8A287C8C2F006B8205 /* ViewController.swift in Sources */,
 				63BC5D86287C8C2F006B8205 /* AppDelegate.swift in Sources */,

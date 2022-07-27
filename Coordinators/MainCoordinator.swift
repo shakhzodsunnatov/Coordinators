@@ -31,9 +31,10 @@ class MainCoordinator: Coordinator {
     }
     
     func createAccount() {
-        let vc = CreateAccountViewController.instantiate()
-        vc.coordinator = self
-        navigationController.pushViewController(vc, animated: true)
+        let child = CreateAccountCoordinator(navigationController: navigationController)
+        child.parentCoordinator = self
+        childCoordinators.append(child)
+        child.start()
     }
     
     func childDidFinish(_ child: Coordinator?) {
